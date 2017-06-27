@@ -1,0 +1,413 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #202020;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*首页*/
+
+.bj {
+	background: #202020 url(../img/Individual_bj.jpg) center center no-repeat fixed;
+}
+
+.footer {
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	z-index: 30;
+}
+
+.footer p {
+	margin: 0 auto;
+	width: 576px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.logo {
+	width: 100px;
+	margin: 80px 130px 40px;
+}
+
+.drawer-nav ul li a {
+	font-size: 22px;
+	color: #ffffff;
+	display: block;
+	height: 98px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 25px;
+}
+
+.drawer-nav ul li a em {
+	font-style: normal;
+	display: block;
+	font-size: 20px;
+	color: #4d4d4d;
+}
+
+.drawer-nav ul li a:hover {
+	background: #d83c48;
+}
+
+.drawer-nav ul li a:hover em {
+	color: #f06d77;
+}
+
+.drawer-nav {
+	height: 1080px;
+}
+
+.share {
+	height: 30px;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+.share a {
+	float: left;
+	margin-left: 20px;
+}
+
+.share .fx1 {
+	background: url(../img/Share.png) 0 -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx1:hover {
+	background: url(../img/Share.png) 0 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx2 {
+	background: url(../img/Share.png) -50px -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx2:hover {
+	background: url(../img/Share.png) -50px 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx3 {
+	background: url(../img/Share.png) -100px -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx3:hover {
+	background: url(../img/Share.png) -100px 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx4 {
+	background: url(../img/Share.png) -150px -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx4:hover {
+	background: url(../img/Share.png) -150px 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx5 {
+	background: url(../img/Share.png) -200px -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx5:hover {
+	background: url(../img/Share.png) -200px 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx6 {
+	background: url(../img/Share.png) -250px -40px no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+.share .fx6:hover {
+	background: url(../img/Share.png) -250px 0 no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	transition: all 200ms linear 0s;
+}
+
+
+/*关于*/
+
+.logo_1 {
+	padding: 53px 0 0 50px;
+}
+
+.fd {
+	background: #2b2b2b;
+	height: 60px;
+	line-height: 60px;
+	bottom: 0px;
+	position: fixed;
+}
+
+.content {
+	width: 72.9%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+.content .title {
+	padding: 100px 0 50px;
+}
+
+.content .title h3 {
+	color: #eee;
+	font-size: 38px;
+}
+
+.content .me {
+	float: left;
+	width: 40%;
+}
+
+.content .information {
+	float: right;
+	width: 52%;
+}
+
+.content .information div {
+	border-bottom: 1px solid #2b2b2b;
+	padding-bottom: 10px;
+}
+
+.content .information h3 {
+	color: #EEEEEE;
+	padding-bottom: 10px;
+}
+
+.content .information p {
+	font-size: 16px;
+	color: #808080;
+}
+
+.content .information .name h3 {
+	font-size: 30px;
+}
+
+.content .information .work_1 {
+	padding-top: 40px;
+	border-bottom: none;
+}
+
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: all 0.5s ease 0s;
+}
+
+.grayscale:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
+}
+
+.aodi {
+	width: 71%;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.aodi img {
+	width: 1000px;
+}
+
+
+/*联系*/
+
+.contact {
+	overflow: hidden;
+	width: 73%;
+	margin: 0 auto;
+	padding: 65px 0 0 0;
+}
+
+.contact_left {
+	float: left;
+}
+
+.contact_left h3 {
+	font-size: 24px;
+	color: #EEEEEE;
+	padding-bottom: 30px;
+}
+
+.contact_left p {
+	color: #787878;
+}
+
+.contact_left p span {
+	color: #525252;
+	width: 66px;
+	float: left;
+	text-align: right;
+}
+
+.contact_right {
+	float: right;
+	width: 50%;
+}
+
+.contact_right p {
+	margin-bottom: 0;
+}
+
+.contact_right p .inputxt {
+	background: transparent;
+	border: none;
+	color: #a9a9a9;
+	width: 100%;
+	height: 56px;
+	border-bottom: 1px solid #4c4c4f;
+	padding: 10px 0 10px 10px;
+}
+
+.contact_right p textarea.inputxt {
+	resize: none;
+	height: 136px;
+	overflow: hidden;
+}
+
+.contact_right .button {
+	width: 50%;
+	height: 48px;
+	border: 1px solid #4d4d4d;
+	background: transparent;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	margin: 10% 0 0 25%;
+}
+
+.contact_right .button:hover {
+	background: #e14551;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 69.5em) {
+	.content .information {
+		width: 100%;
+	}
+	.content .me {
+		padding-bottom: 20px;
+		width: 100%;
+	}
+	.content .information .name h3 {
+		font-size: 2.5rem;
+	}
+	.content .information h3 {
+		font-size: 1.8rem;
+	}
+	.content .information p {
+		font-size: 1.4rem;
+	}
+	.footer {
+		display: none;
+	}
+	.grid .effect-zoe {
+		width: 100%;
+	}
+	.grid .effect-zoe h2 {
+		font-size: 1.4rem;
+	}
+	.grid .effect-zoe span {
+		display: none;
+	}
+	.contact_left h3 {
+		font-size: 1.9rem;
+	}
+	.contact {
+		width: 100%;
+	}
+	.contact_left {
+		width: 100%;
+	}
+	.contact_left p {
+		font-size: 1.6rem;
+	}
+	.contact_left p span {
+		width: 100%;
+		text-align: left;
+	}
+	.contact_right {
+		width: 100%;
+		padding-top: 60px;
+	}
+	.aodi {
+		width: 100%;
+		padding-top: 50px;
+	}
+}

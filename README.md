@@ -1,3 +1,2 @@
-# Mr-LiXianSheng.github.io
-网页正在建设中，请尽情期待~~~<br/>
+# 个人展示网页
 请访问：http://lxsweb.top/
